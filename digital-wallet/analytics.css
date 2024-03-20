@@ -1,0 +1,173 @@
+.calendar{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(231, 229, 229);
+    height: 2%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    padding-top: 0;
+    font-size: 15px;
+}
+
+.date{
+    position: relative;
+    padding-right: 4px;
+    font-weight: lighter;
+    margin-top: 12px;
+}
+
+.date2{
+    position: relative;
+    background-color: rgb(241, 238, 238);
+    width: 50px;
+    height: 90%;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 7px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: -5px;
+    font-weight: bold;
+}
+
+.sept{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 25px;
+    opacity: 0.5;
+}
+
+.week-container{
+    padding-left: 28px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sign-container{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    margin-top: 20px;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.sept{
+    padding-top: 15px;
+}
+
+.week{
+    font-size: 35px;
+    margin-top: 0px;
+    font-family: "Autour One";
+}
+ #chart {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-left: 60px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    padding: 0;
+    height: 300px;
+    width:330px;
+    position: relative;
+  }
+
+  #x1, #y1 {
+    position: absolute;
+    font-size: larger;
+    }
+#x1 {
+    bottom: -40px;
+    left: 7px;
+}
+#y1{
+    left: -55px;
+    bottom: 110px;
+    
+    }
+
+
+    .y-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 10px;
+        margin-bottom: -100px;
+        margin-left: 10px;
+    } 
+
+    .x-container{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+    } 
+
+    .info{
+        background-color: rgb(203, 199, 199);
+        width: 30%;
+        height: 28%;
+        text-align: center;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px;
+        margin-top: 10px;
+        padding-top: 1%;
+        line-height: 5px;
+    }
+
+    .sub-info{
+        width: 90%;
+        background-color: rgb(3, 69, 3);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        color: white;
+        margin-bottom: 2px;
+    }
+
+   
+    .bar-chart {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        height: 300px;
+        margin-top: -85px;
+        /* border: 2px solid blue; */
+    }
+    
+    .bar {
+        width: 50px;
+        background-color: rgb(159, 195, 225);
+        position: relative;
+        border-radius: 6px 3px 0 0;
+        /* border-right: 0;
+        border-top: 4px solid rgb(105, 167, 218); */
+        /* border-corner-shape: bevel; */
+        /* border-left: 4px solid rgb(105, 167, 218);  */
+        
+    }
+    
+    .bar::after {
+        content: attr(data-label);
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .bar-chart .bar {
+        --height: 0;
+        height: var(--height);
+    }
+
+    
+    

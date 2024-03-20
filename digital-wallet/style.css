@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: gray;
+
+}
+
+.main-container{
+    background-color: #002f34;
+    width: 414px;
+    height: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -15px;
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.time{
+    margin-top: -1px;
+    font-size: 15px;
+}
+
+.sub-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+.text1{
+    font-size: 43px;
+    font-weight: lighter;
+   
+}
+
+.text2{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+.bg-container{
+    width: 260px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #002f34;
+    border-bottom: none;
+    border-left: 10px;
+    border-right: 10px;
+    margin-top: 50px;
+}
+
+.main-content{
+    width: 300px;
+    height: 290px;
+    background-color: #d0efef;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-bottom: 200px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-top: -30px;
+}
+
+.first-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 70px;
+    margin-left: -6px;
+    opacity: 0.5;
+    
+}
+
+.name{
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+}
+
+.name2{
+    padding-left: 9px;
+}
+
+.container1{
+    width: 80px;
+    height: 15px;
+    background-color: black;
+    margin-left: 5px;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    width: 97px;
+}
+
+.container2-1{
+    width: 15px;
+    height: 80px;
+    background-color: black;
+    margin-left: 5px;
+}
+
+.container2-2{
+    width: 15px;
+    height: 80px;
+    background-color: black;
+    margin-left: 5px;
+}
+
+.container3{
+    width: 80px;
+    height: 15px;
+    background-color: black;
+    margin-left: 5px;
+    
+}
+.container5{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    margin-left: 105px;
+    margin-top: -20px;
+}
+
+.signature{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.second-text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-text{
+    width: 325px;
+    height: 100px;
+    background-color: white;
+    margin-left: -15px;
+    border-radius: 0 0 19px 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.dalto{
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.scan{
+    width: 130px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 35px;
+    width: 335px;
+    height: 35px;
+    margin-left: -20px;
+    font-size: 15px;
+    color: white;
+    background-color: #1a4549;
+    border-radius: 7px;
+    font-weight: lighter;
+}
+
+.table{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    color: black;
+}
+
+.tab1-1{
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 1px 0 3px 4px;
+    border-top: none;
+}
+
+.tab1-2{
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 1px 0 3px 4px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.tab2-1{
+    width: 50px;
+    margin-right: 157px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 1px 4px 7px 5px;
+    border: none;
+}
+
+.tab2-2{
+    width: 50px;
+    margin-right: 190px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 1px 7px 3px 4px;
+    border-left: none;
+    border-bottom: none;
+    margin-left: -5px;
+}
+
+/* do media queries for the .main-container */
