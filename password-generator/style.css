@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container{
+    margin-top: 100px;
+    padding-top: 20px;
+    text-align: center;
+    width: 35%;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    line-height: 30px;
+    
+}
